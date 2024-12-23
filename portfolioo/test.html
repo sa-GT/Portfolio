@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .h1{
+        animation-name: h11;
+        animation-iteration-count: 1000;
+        transition: all 0.5s;
+        animation-duration: 2s;
+    }
+    @keyframes h11 {
+        0% {
+        opacity: 0;
+        transform: translateY(10px); /* Start with a small downward movement */
+    }
+    50% {
+        opacity: 0;
+        transform: translateY(10px); /* Keep the character invisible */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End with the character in its original position */
+    }    }
+</style>
+<body>
+    <p><span class="h1">H</span><span class="h1">A</span><span class="h1">B</span><span class="h1">E</span><span class="h1">E</span><span class="h1">B</span></p>
+</body>
+</html>
